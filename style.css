@@ -1,6 +1,4 @@
-body {
-    background-color: wheat;
-}
+
 
 
 * {
@@ -17,14 +15,33 @@ body {
 
 /* HERO SECTION */
 .hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-image: url("images/skater.gif");
     background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .hero-text {
     font-size: 70px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .hero-button {
@@ -34,11 +51,12 @@ body {
     color: #ffffff;
     cursor: pointer;
     font-size: 20px;
-    padding: 25px;
+    padding: 15px;
     border: 0;
     transition: all 0.5s;
     border-radius: 10px;
-    width: auto;
+    width: 100%;
+    max-width: 250px;
     position: relative;
 }
 
@@ -57,3 +75,41 @@ body {
     width: auto;
     height: 250px;
 }
+
+.London {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+
+.hero-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: orange;
+}
+
+.hero-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .intro-title {
+    margin-bottom: 14px;
+    margin-top: 5px;
+  }
+
+   
+  .intro-text {
+    margin-bottom: 14px;
+   
+  }
+
+
+
+
+   
